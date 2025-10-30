@@ -1,50 +1,82 @@
-# Welcome to your Expo app 👋
+# 📱 Mobile Development — Task 0: Setting Up and Testing Your Mobile Development Environment
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Project:** Mobile Development with React Native (Task 0)  
+**Repository:** `prodev-mobile-setup`  
+**Directory:** `mobile-development-setup`  
+**File:** `README.md`
 
-## Get started
+---
 
-1. Install dependencies
+## 🧭 Objective
 
-   ```bash
-   npm install
-   ```
+This task focuses on **setting up Expo Go on a physical mobile device** to prepare for React Native development using the **Expo Framework**.  
+Expo Go enables you to run and test your React Native applications directly on your Android or iOS device without the need for complex emulators.
 
-2. Start the app
+You are required to:
 
-   ```bash
-   npx expo start
-   ```
+- Install **Expo Go** on your mobile device.
+- Select the latest SDK version.
+- Verify that you can connect your device to your local development server.
+- Document your setup and challenges in this README.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧩 Why Expo Go?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Mobile development often requires high hardware resources to emulate iOS and Android devices.  
+Expo Go provides a **lightweight, cost-effective alternative** by allowing you to:
 
-## Get a fresh project
+- Test apps directly on your phone.
+- Avoid the need for emulators or simulators.
+- Preview real device behavior instantly.
+- Work seamlessly with both **iOS** and **Android** devices.
+
+---
+
+## 🛠️ Step-by-Step Setup Guide
+
+### ✅ Step 1: Pre-Setup Check
+
+Ensure the following tools are already installed:
+
+| Tool             | Purpose                 | Version / Check           |
+| ---------------- | ----------------------- | ------------------------- |
+| Node.js (LTS)    | JavaScript runtime      | `node -v` (v16 or higher) |
+| npm              | Node package manager    | `npm -v`                  |
+| VS Code          | Recommended IDE         | Installed                 |
+| Operating System | Windows / macOS / Linux | Compatible                |
+
+---
+
+### ✅ Step 2: Visit Expo Go Page
+
+1. Open the official page: https://expo.dev/go
+2. Select the **latest SDK version** listed on the page.
+3. Choose the correct platform to install Expo Go:
+   - **Android:** Install from Google Play Store — search for **Expo Go**
+   - **iOS:** Install from Apple App Store — search for **Expo Go**
+
+---
+
+### ✅ Step 3: Install and Sign In
+
+1. Download and install **Expo Go** on your device.
+2. Open the app.
+3. Sign in with your **Expo account** or create a new one if you don’t have one.
+
+---
+
+### ✅ Step 4: Create and Start a Sample Expo Project
+
+Create a simple Expo project locally to verify your setup. Run these commands in your terminal:
+
+````bash
+npx create-expo-app expo-test
+cd expo-test
+npx expo start
 
 When you're ready, run:
 
 ```bash
 npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+````
