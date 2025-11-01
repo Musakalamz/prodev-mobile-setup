@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# 🎨 Mobile Components and Styling Implementation (prodev-mobile-app-0x01)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository holds the solution for **Task 2: Implementing Mobile Components in React Native**. The focus was on understanding and utilizing core React Native components (`<View>`, `<Text>`) and applying styles using the JavaScript `StyleSheet` module.
 
-## Get started
+## ✨ Objectives Achieved
 
-1. Install dependencies
+* **Core Component Usage:** Used native components (`<View>`, `<Text>`) as building blocks, analogous to `<div>` and `<p>` in web development.
+* **JavaScript Styling:** Defined all component styles using `StyleSheet.create()` to ensure optimization and maintainability.
+* **Styling Properties:** Explored various text styling properties (e.g., `fontSize`, `fontWeight`, `fontVariant`) and layout properties (e.g., `backgroundColor`, `textAlign`).
 
-   ```bash
-   npm install
-   ```
+## ⚙️ Implementation Details (`app/index.tsx`)
 
-2. Start the app
+The main application file demonstrates component composition and styling for displaying text elements with distinct styles:
 
-   ```bash
-   npx expo start
-   ```
+| Component | Style Applied | Text Content |
+| :--- | :--- | :--- |
+| **Main View** | `styles.container` (Background Color) | Root container |
+| **Large Text** | `styles.largeText` (30pt, red, small-caps) | "Typescript is great if you practice more" |
+| **Medium Text** | `styles.mediumText` (20pt, purple, right-aligned) | "React Native provides you a single codebase for cross platforms" |
+| **Small Text** | `styles.smallText` (15pt, blue, center-aligned) | "ALX is awesome" |
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1.  Navigate to the project directory: `cd prodev-mobile-app-0x01`
+2.  Run the development server: `npx expo start`
+3.  Scan the QR code with the Expo Go app to view the styled components.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 👤 Author
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* **Musa Ogunsolu** (GitHub: [Musakalamz](https://github.com/Musakalamz))
+* **LinkedIn:** [Musa Ogunsolu](https://www.linkedin.com/in/musa-ogunsolu)
