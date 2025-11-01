@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+# 🖼️ Safe Areas, Images, and Touchable Components (prodev-mobile-app-0x02)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository contains the solution for **Task 3: Implementing Safe Areas, Images, and Touchable Components**. The goal was to build a visually engaging and responsive welcome screen using core React Native components essential for modern mobile UI design.
 
-## Get started
+## ✨ Key Components and Concepts
 
-1. Install dependencies
+* **SafeAreaView:** Utilized `SafeAreaProvider` and `SafeAreaView` to prevent UI elements from overlapping with device notches, status bars, and navigation areas.
+* **ImageBackground & Dimensions:** Used to set a full-screen, responsive background image by integrating `Dimensions.get("window").height` with `resizeMode="cover"`.
+* **TouchableOpacity:** Implemented the "Join here" and "Sign In" buttons, providing visual feedback when pressed, which is the standard method for creating interactive buttons in React Native.
+* **Component Structure:** Logically grouped text elements and buttons into separate `<View>` containers (`styles.textGroup`, `styles.buttonGroup`) for clean layout management.
 
-   ```bash
-   npm install
-   ```
+## 💡 Real-World Application
 
-2. Start the app
+The structure and components used here (full-screen image, logo placement, action buttons at the bottom) are standard practice for **onboarding** and **splash screens** in production mobile applications.
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
+1.  Navigate to the project directory: `cd prodev-mobile-app-0x02`
+2.  Ensure required assets (`Logo.png`, `background-image.png`) are in the `assets/images` directory.
+3.  Run the development server: `npx expo start`
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 👤 Author
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* **Musa Ogunsolu** (GitHub: [Musakalamz](https://github.com/Musakalamz))
+* **LinkedIn:** [Musa Ogunsolu](https://www.linkedin.com/in/musa-ogunsolu)
