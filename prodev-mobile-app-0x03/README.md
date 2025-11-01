@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# 🔐 Core Components and Login Screen (prodev-mobile-app-0x03)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository contains the solution for **Task 4: Explore More Core Components**, resulting in the implementation of a full-featured **Mobile Login Screen**. This task combined layout management, form inputs, external styling, and third-party icon integration.
 
-## Get started
+## ✨ Key Implementations
 
-1. Install dependencies
+* **External Styling:** Separated all styles into a dedicated file (`styles/index.tsx`) and imported them, promoting modularity and maintainability.
+* **Form Input Handling:** Utilized the `<TextInput>` component for email and password fields, including keyboard type specification (`keyboardType="email-address"`).
+* **Complex Form Layout:** Structured password input with an inline icon using a `<View>` wrapper and `flexDirection: 'row'` (`styles.passwordGroup`).
+* **Third-Party Icons:** Integrated the **FontAwesome** and **Ionicons** libraries via `@expo/vector-icons` for the back arrow and password visibility toggle.
+* **Social Sign-In:** Implemented `TouchableOpacity` buttons for "Continue with Google" and "Continue with Facebook," demonstrating common social media authentication patterns.
 
-   ```bash
-   npm install
-   ```
+## 📁 File Structure
 
-2. Start the app
+The project utilizes an improved folder structure:
 
-   ```bash
-   npx expo start
-   ```
+* `app/index.tsx`: The main Login Screen component.
+* `styles/index.tsx`: Contains all global styles defined via `StyleSheet.create()`.
+* `app/_layout.tsx`: Configured to hide the default header (`headerShown: false`).
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1.  Navigate to the project directory: `cd prodev-mobile-app-0x03`
+2.  Ensure necessary assets (`logo.png`, `google.png`, `facebook.png`) are in `assets/images`.
+3.  Run the application: `npx expo start`
+4.  Test the app on your physical device using **Expo Go**.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 👤 Author
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* **Musa Ogunsolu** (GitHub: [Musakalamz](https://github.com/Musakalamz))
+* **LinkedIn:** [Musa Ogunsolu](https://www.linkedin.com/in/musa-ogunsolu)
